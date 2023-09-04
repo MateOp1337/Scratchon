@@ -1,7 +1,47 @@
 <!DOCTYPE HTML>
 <html>
+<head>
+  <title>Scratchon</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <style>
+    body{background-color:#2b2b2b;color:white;font-size:20px;font-family:'Gill Sans','Gill Sans MT',Calibri,'Trebuchet MS',sans-serif}
+    .blocks{width:500px}
+    details{padding:15px}
+    summary{cursor:pointer}
+    hr + details {margin-top:-23px}
+    li + details {margin-top:-23px}
+  </style>
+</head>
 <body>
   <h1 style="text-align:center">Scratchon b1.6</h1>
-  <img src="randcharsEX.svg" style="width:100%;height:100%">
+  <!--  Examples   -->
+  <hr><details><summary>Examples</summary>
+    <details><summary>Get Random Characters</summary>
+      Here is an example for use "Get Random Characters" block!<br><br>
+      <img src="randcharsEX.png" class="blocks">
+    </details>
+
+  <!--  Changelog   -->
+  </details>
+  <hr><details open><summary>Changelog</summary>
+    <details><summary>Scratchon 1.5</summary>
+      <ul>
+        <li>Added message kits</li>
+        <li>Published Scratchon!</li>
+      </ul>
+    </details>
+
+    <details><summary>Scratchon 1.6</summary>
+      <ul>
+        <li>Created page on GitHub</li>
+        <li>Changed "pip" to "scr"</li>
+        <li>Added "raiseException" to libraries</li>
+        <li>Added "type(variable)", it return type of Scratchon variables, available types:<details><summary>Show/hide</summary><ul><li>scratchonType 'list'</li><li>scratchonType 'object'</li><li>scratchonType 'dict'</li><li>scratchonType 'str'</li><li>scratchonType 'invalid'</li></ul></details></li>
+        <li>Added "return(value)", it returns "value" variable (set "__scratchon__.output" variable to "value")</li>
+        <li>Removed "__self__", "__scratchon__" and "__logs__" requirement in "scratchon.init" function</li>
+      </ul>
+    </details>
+  </details>
 </body>
 </html>
